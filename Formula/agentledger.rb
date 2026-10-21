@@ -1,8 +1,8 @@
 class Agentledger < Formula
   desc "Local-first cost ledger for AI coding agents — tokens and dollars from their own local logs"
   homepage "https://github.com/garyleelty/agentledger"
-  url "https://github.com/garyleelty/agentledger/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "534da5b5e090b9e17e8668929237da6bda68eadbd9d4d8194437aafd95db5491"
+  url "https://github.com/garyleelty/agentledger/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "d189fd04f93d0828045d0e88b14a749b1f4361f54e1ec4a265e119c2b54d73a9"
   license "MIT"
   head "https://github.com/garyleelty/agentledger.git", branch: "main"
 
