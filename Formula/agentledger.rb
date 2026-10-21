@@ -1,8 +1,8 @@
 class Agentledger < Formula
   desc "Local-first cost ledger for AI coding agents — tokens and dollars from their own local logs"
   homepage "https://github.com/garyleelty/agentledger"
-  url "https://github.com/garyleelty/agentledger/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "d189fd04f93d0828045d0e88b14a749b1f4361f54e1ec4a265e119c2b54d73a9"
+  url "https://github.com/garyleelty/agentledger/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "c0a23d0fdb2660d96932dcc1b56be0bebcac023d779d30d39d8a7b190dcc0ae3"
   license "MIT"
   head "https://github.com/garyleelty/agentledger.git", branch: "main"
 
@@ -25,6 +25,6 @@ class Agentledger < Formula
     assert_match "agentledger", shell_output("#{bin}/agentledger --help")
     # The version comes from package.json, so this also proves the libexec
     # layout is right: a broken layout prints 0.0.0-unknown.
-    assert_equal "0.5.0", shell_output("#{bin}/agentledger --version").strip
+    assert_equal "0.6.0", shell_output("#{bin}/agentledger --version").strip
   end
 end
