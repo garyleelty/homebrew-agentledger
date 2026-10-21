@@ -25,6 +25,6 @@ class Agentledger < Formula
     assert_match "agentledger", shell_output("#{bin}/agentledger --help")
     # The version comes from package.json, so this also proves the libexec
     # layout is right: a broken layout prints 0.0.0-unknown.
-    assert_equal "0.4.0", shell_output("#{bin}/agentledger --version").strip
+    assert_equal "0.5.0", shell_output("#{bin}/agentledger --version").strip
   end
 end
